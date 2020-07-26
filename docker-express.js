@@ -96,7 +96,7 @@ const htmlDocument = `
 `;
 
 app.get('/', (req, res) => {
-  console.log(req.path, req.query); // / { '9': ''}
+  console.log("Request:", `${req.hostname}:${port}${req.originalUrl}`);
   res.send(htmlDocument);
 });
 

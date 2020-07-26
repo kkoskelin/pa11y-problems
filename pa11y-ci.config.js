@@ -9,7 +9,6 @@ const defaults = {
   standard: 'WCAG2AA',
   timeout: 60000,
   wait: 10000,
-  waitUntil: 'networkIdle0',
 };
 
 const initialUrl = 'http://localhost:8888/';
